@@ -24,6 +24,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'html2haml', require: false
   gem "web-console"
 end
 
